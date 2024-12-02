@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista Navideña</title>
+        <style>
+            main {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .container {
+                width: 80%;
+                max-width: 600px;
+                background-color: white;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .list-item {
+                font-size: 30px;
+                padding: 10px 0;
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 10px;
+                text-align: center;
+                color: #333;
+            }
+            .list-item:last-child {
+                border-bottom: none;
+            }
+
+            .other {
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                font-family: Arial, sans-serif;
+            }
+
+            a {
+                text-decoration: none;
+                color: #333;
+
+                transition: all 200ms ease-in-out;
+            }
+
+            a:hover {
+                color: #aaa;
+
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+
+        <span class="other">! Todas las opciones tienen un enlace de referencia</span>
+
+        <main>
+            <div class="container">
+                <div class="list-item"><a href="https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628">The C Programming Language Second Edition (Libro)</a></div>
+                <div class="list-item"><a href="pc.html">Componentes de PC</a></div>
+                <div class="list-item"><a href="https://www.mercadolibre.cl/control-joystick-gamesir-g7-se-blanco/p/MLC24473062#polycard_client=search-nordic&searchVariation=MLC24473062&position=2&search_layout=stack&type=product&tracking_id=cc6a8703-1acc-412e-a8da-3cc321cfd286&wid=MLC1477092035&sid=search">Mando GameSir G7 SE</a></div>
+            </div>
+        </main>
+
+    </body>
+</html>
